@@ -1,6 +1,6 @@
 /* list of tags */
 #define TAGS		"xnlhtr01uiva "
-#define TAGS_SAVED	""
+#define TAGS_SAVED	"xnlhtr01uiva "
 
 /* programs mapped to m-c, m-m, m-e */
 #define SHELL		{"sh"}
@@ -8,12 +8,12 @@
 #define MAIL		{"mailx", "-f", "+inbox"}
 
 /* TERM variable for launched programs */
-#define TERM		"linux"
+#define TERM		"xterm-256"
 
 /* tinyfont files for regular, italic, and bold fonts */
-#define FR		"/path/to/font.tf"
-#define FI		NULL
-#define FB		NULL
+#define FR		"/home/user/tools/fbpad/fonts/LibertationMono-Regular.tf"
+#define FI		"/home/user/tools/fbpad/fonts/LibertationMono-Italics.tf"
+#define FB		"/home/user/tools/fbpad/fonts/LibertationMono-Bold.tf"
 
 /* foreground and background colors */
 #define FGCOLOR		COLOR0
