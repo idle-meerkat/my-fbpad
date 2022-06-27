@@ -132,7 +132,9 @@ static void _draw_row(int r)
 			fbg = cbg;
 		}
 	}
-	pad_fill(r, r + 1, fsc >= 0 ? fsc : pad_cols(), -1, cbg & FN_C);
+	if (i > 0) {
+		pad_fill(r, r + 1, fsc >= 0 ? fsc : pad_cols(), -1, cbg & FN_C);
+	}
 }
 
 static int candraw(int sr, int er)
