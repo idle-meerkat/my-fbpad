@@ -3,7 +3,7 @@
 #define TAGS_SAVED	"xnlhtr01uiva "
 
 /* programs mapped to m-c, m-m, m-e */
-#define SHELL		{"sh"}
+#define SHELL		{"pdksh"}
 #define EDITOR		{"vi"}
 #define MAIL		{"mailx", "-f", "+inbox"}
 
